@@ -40,6 +40,7 @@
 #include <arpa/inet.h>
 #include <poll.h>
 #include <netinet/tcp.h>
+#include <netinet/in.h>
 #include <signal.h>
 
 /* Package includes */
