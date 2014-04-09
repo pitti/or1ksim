@@ -136,7 +136,7 @@ AC_CHECK_SIZEOF(long, 1)
 AC_CHECK_TYPES([__compar_fn_t])
 
 # check for GNU readline
-AC_CHECK_LIB(readline, add_history)
+# AC_CHECK_LIB(readline, add_history)
 
 # yuck
 case "$host_os" in
