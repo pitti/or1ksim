@@ -30,9 +30,6 @@
 #include "config.h"
 #include "port.h"
 
-/* System includes */
-#include <byteswap.h>
-
 /* Package includes */
 #include "atadevice.h"
 #include "atadevice-cmdi.h"
