@@ -33,6 +33,7 @@
 
 /* System includes */
 #include <stdio.h>
+#include <byteswap.h>
 
 /* Package includes */
 #include "arch.h"
