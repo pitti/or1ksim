@@ -33,7 +33,12 @@
 
 /* System includes */
 #include <stdio.h>
+#ifdef __FreeBSD__
+#include <sys/endian.h>
+#define bswap_16(x) bswap16(x)
+#else
 #include <byteswap.h>
+#endif
 
 /* Package includes */
 #include "arch.h"
